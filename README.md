@@ -16,7 +16,7 @@ Notes on the file/folder structure:
 
 - Page routes are defined in *src/routes.py*, points to HTML file
 - HTML files found in *src/templates/*; pages [extend](https://pythonhosted.org/Flask-Bootstrap/basic-usage.html) *base.html*
-- Anything else found in a websites codebase, images, favicons, CSS files, etc., should go in *src/static/*
+- Anything else found in a website's codebase, images, favicons, CSS files, etc., should go in *src/static/*
 - Otherwise the *src/* directory behaves like any other Python module using *src/\__init\__.py*
 
 ## Building and running the container
