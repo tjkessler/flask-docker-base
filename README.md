@@ -19,13 +19,6 @@ Notes on the file/folder structure:
 - Anything else found in a website's codebase, images, favicons, CSS files, etc., should go in *src/static/*
 - Otherwise the *src/* directory behaves like any other Python module using *src/\__init\__.py*
 
-## Easy mode (Docker compose)
-
-```
-$ cd flask-docker-base
-$ docker compose up -d
-```
-
 ## Building and running the container
 
 ### Building the app image
@@ -54,3 +47,10 @@ $ docker ps
 ```
 
 Using a web browser, nagivate to *docker-host-ip:5000*.
+
+## Easy mode (Docker compose)
+
+```
+$ cd flask-docker-base
+$ docker compose up -d
+```
