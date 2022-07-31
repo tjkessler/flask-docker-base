@@ -14,10 +14,9 @@ To accomplish these needs, this template was created using:
 
 Notes on the file/folder structure:
 
-- Page routes are defined in *src/routes.py*, points to HTML file
-- HTML files found in *src/templates/*; pages [extend](https://pythonhosted.org/Flask-Bootstrap/basic-usage.html) *base.html*
-- Anything else found in a website's codebase, images, favicons, CSS files, etc., should go in *src/static/*
-- Otherwise the *src/* directory behaves like any other Python module using *src/\__init\__.py*
+- Page routes are defined in *app/app.py*, points to HTML file
+- HTML files found in *app/templates/*; pages [extend](https://pythonhosted.org/Flask-Bootstrap/basic-usage.html) *base.html*
+- Anything else found in a website's codebase, images, favicons, CSS files, etc., should go in *app/static/*
 
 ## Docker compose
 
